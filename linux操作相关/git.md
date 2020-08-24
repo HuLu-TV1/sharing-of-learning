@@ -1,4 +1,4 @@
-## Git 基本操作
+﻿## Git 基本操作
 
 ### 一些概念
 
@@ -108,6 +108,9 @@ $ git checkout [branch-name]
 
 # 合并指定分支到当前分支
 $ git merge [branch-name]
+
+# 跟踪分支
+$ git branch --set-upstream-to=origin/<branch-name> master
 
 # 删除分支
 $ git branch -d [branch-name]
